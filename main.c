@@ -2,7 +2,10 @@
 
 // Hàm nhập dãy số nguyên
 void nhapMang(int a[], int n) {
-    
+      for (int i = 0; i < n; i++) {
+        printf("Nhap a[%d] = ", i);
+        scanf("%d", &a[i]);
+    }
 }
 
 // Hàm xuất dãy số nguyên
